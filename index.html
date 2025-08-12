@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>لعبة تخمين الرقم</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="لعبة تخمين الرقم هي لعبة ممتعة حيث يجب عليك تخمين رقم عشوائي بين 1 و100. كلما اقتربت من الرقم الصحيح، ستحصل على إشعارات تساعدك في تحسين تخميناتك. هل يمكنك العثور على الرقم الصحيح؟">
+  <meta name="keywords" content="لعبة, تخمين, رقم, عشوائي, تحدي, ممتعة">
+  <meta name="author" content="اسمك هنا">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAwUlEQVRIS2NkoDFgpLH5DHS3wB/oow4g1iDTZ9eB+kqAeBtMP7oPngAlpMk0HKbtHpChjMuC/1AJcoMOQz+6QegK0oEWgsRm4fAVujxJFoQADV0NNTgUSK9BswSb/OCyAOTgNCAGBeNMHEGELk+SD7CZSShOKLKAUJyAHDS4LSAmTkj2AaEwH80H9M8HhApagpH8EGiCHCFTCMg/AMor4iquQRVOJxCrk2nJJaC+SiDGWeGQaS5ubeRWLEQ7hOYWAAByokkZr3xESwAAAABJRU5ErkJggg==" alt="Logo type="image/x-icon">
+</head>
+<body>
+    
+  <h1>🎯 لعبة تخمين الرقم</h1>
+  <p id="message">اختر رقمًا بين 1 و100:</p>
+  <input type="number" id="guessInput" min="1" max="100">
+  <button onclick="checkGuess()">تخمين</button>
+  <p id="message"></p>
+  <p id="attempts">عدد المحاولات: 0</p>
+  <button onclick="restartGame()">إعادة اللعبة 🔁</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color:  #1b2242;
+    color: white;
+    
+    font-size: 16px;
+
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 20px;
+    overflow: hidden;
+    height: 100vh;
+    
+
+}
+
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+input[type="number"]{
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2rem;
+}
+input[type="number"]:focus{
+    outline: none;
+    box-shadow: 0 0 5px #4a90e2;
+}
+
+button{
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    box-shadow: 0px 1px 2px 1px #c4dfff;
+}
+button:active{
+    box-shadow: 0px 1px 2px 1px #c4dfff inset;
+}
